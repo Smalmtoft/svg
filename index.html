@@ -3,18 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" a href="styles/normalize.css">
-    <link rel="stylesheet" a href="styles/index.css/">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
     <title>SVG</title>
 </head>
 <body>
 
     <main>
    
+<h1>Three beautiful SVGS</h1>
+<p>Look at these beautiful SVGS. They also move. How cool isn't that?</p>
+
         <div class="container">
             
             <!--Credit card-->
-            <svg width="500" height="350" xmlns="https://www.w3.org/2000/svg">
+            <svg class="credit-card" viewBox="0 0 500 350" width="500" height="350" xmlns="https://www.w3.org/2000/svg">
                 <rect width="450" height="300" rx="20" ry="20" fill="#546b75" />
                 <rect width="450" height="60" y="50" fill="#7c8e97" />
                 <circle r="45" cx="300" cy="220" fill="#7c8e97" />
@@ -30,24 +34,27 @@
         
             <br><br>
 
-            <!--Envelope-->
-            <svg width="500" height="350" xmlns="https://www.w3.org/2000/svg">
-                <rect width="450" height="300" x="10" y="10" rx="20" ry="20" fill="#546b75" style="stroke:#7c8e97 ;stroke-width:18" stroke-linecap="round"/>
-                <polyline points="20,20 240,150 450,20" fill="none" style="stroke:#7c8e97 ;stroke-width:18" stroke-linecap="round" stroke-linejoin="round"/> 
-            </svg>   
-
-            <br><br>
-
             <!--Diamond-->
-            <svg width="400" height="400" xmlns="https://www.w3.org/2000/svg">
+            <svg class="diamond" viewBox="0 0 450 400" width="450" height="400" xmlns="https://www.w3.org/2000/svg">
                 <polyline points="130,20 300,20 370,120 220,350 60,120 130,20" fill="#d7ded9" style="stroke:#7c8e97 ;stroke-width:18" stroke-linecap="round" stroke-linejoin="round"/>
                 <polyline points="130,20 160,120 215,20 270,120 300,20" fill="#92a7ae" style="stroke:#7c8e97 ;stroke-width:10" stroke-linecap="round" stroke-linejoin="round"/>
                 <polyline points="160,120 220,350 270,120" fill="#92a7ae" style="stroke:#7c8e97 ;stroke-width:10" stroke-linecap="round" stroke-linejoin="round"/>
                 <line x1="60" y1="120" x2="360" y2="120" style="stroke:#7c8e97 ;stroke-width:10" stroke-linecap="round"/>
             </svg>
+
+            <br><br>
+
+            <!--Envelope-->
+            <svg class="envelope" viewBox="0 0 500 350" width="500" height="350" xmlns="https://www.w3.org/2000/svg">
+                <rect width="450" height="300" x="10" y="10" rx="20" ry="20" fill="#546b75" style="stroke:#7c8e97 ;stroke-width:18" stroke-linecap="round"/>
+                <polyline points="20,20 240,150 450,20" fill="none" style="stroke:#7c8e97 ;stroke-width:18" stroke-linecap="round" stroke-linejoin="round"/> 
+            </svg>   
+
         
         </div>
-        
+
+<button>Learn more about SVGS here <a href="https://www.adobe.com/creativecloud/file-types/image/vector/svg-file.html"></a></button>
+
     </main>    
 
 </body>
