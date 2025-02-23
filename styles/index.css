@@ -40,17 +40,11 @@ p{
 }
 
 
-.credit-card {
+.credit-card, .envelope, .diamond{
     width: 300px;
+    animation: imgZoom 4s ease infinite;
 }
 
-.envelope {
-    width: 300px; 
-}
-
-.diamond {
-    width: 300px;  
-}
 
 button{
     background-color: #546b75;
@@ -59,6 +53,22 @@ button{
     border-radius: 10px;
     padding: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: background-color 0.5s ease-in-out;
     
 }
 
+button:hover{
+    background-color: rgb(204, 87, 63);
+}
+
+@keyframes imgZoom{
+    0% {transform: scale(0.9);}
+    20% {transform: scale(1.1);}
+    50% {transform: scale(0.9);}
+    100% {transform: scale(0.9);}
+}
+
+.animate__bounce {
+    animation: bounceWithDelay 2s ease-in-out infinite;
+    animation-delay: 3s;
+}
